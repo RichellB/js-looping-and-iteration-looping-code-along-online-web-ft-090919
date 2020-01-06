@@ -22,3 +22,5 @@ function writeCards(names, event) {
   
   return names;
 }
+
+writeCards(names, event)
