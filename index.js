@@ -24,4 +24,12 @@ function writeCards(names, event) {
   return names;
 }
 
-writeCards(names, event)
+writeCards(names, event);
+
+function countDown( startingNumber ) {
+  while ( startingNumber > 0 ) {
+    console.log( startingNumber );
+    startingNumber -= 1;
+  }
+  console.log( startingNumber );
+}
