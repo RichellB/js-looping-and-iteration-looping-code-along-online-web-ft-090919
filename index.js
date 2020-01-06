@@ -15,7 +15,7 @@ function wrapGifts(gifts) {
  
 wrapGifts(gifts);
 
-function writeCards(cards) {
+function writeCards(name, event) {
   for (let i = 0; i < cards.length; i++) {
     console.log()
   }
